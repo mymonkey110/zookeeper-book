@@ -1,2 +1,4 @@
-为了应对master奔溃，我们需要有备用的master。当主master奔溃时，备用的master能接管主master的工作。然而，当涉及到master请求时， 故障转移就那样简单了。新的主master必须恢复当老的master奔溃时系统的状态。为了恢复master的状态，我们不能依赖拉取来自错误的master的状态，因为它已经奔溃了，我们必须从其他的地方来获取，这个地方就是Zookeeper。
+为了应对master奔溃，我们需要有备用的master。当主master奔溃时，备用的master能接管主master的工作。然而，当涉及到master请求时， 故障转移就那样简单了。新的主master必须恢复当老的master奔溃时系统的状态。为了恢复master的状态，我们不能依赖拉取来自错误的master的状态，因为它已经奔溃了；我们必须从其他的地方来获取，这个地方就是Zookeeper。
+
+
 
