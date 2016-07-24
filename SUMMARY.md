@@ -5,6 +5,7 @@
     * [简介](简介.md)
         * [Zookeeper的使命](zookeeper的使命.md)
         * [如果没有Zookeeper世界会怎样](如果没有zookeeper世界会怎样.md)
+        * 哪些Zookeeper是不做的
     * [入门](入门.md)
 * [使用Zookeeper编程](使用zookeeper编程.md)
     * [熟悉Zookeeper的API](熟悉zookeeper的api.md)
