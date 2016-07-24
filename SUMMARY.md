@@ -11,7 +11,7 @@
         * [示例：Master-Worker应用](示例：master-worker应用.md)
             * [Master失败](master失败.md)
             * [Worker失败](worker失败.md)
-            * 通信失败
+            * [通信失败](通信失败.md)
             * 任务总结
         * 为什么分布式协作如此困难
         * [Zookeeper是成功的，但是有警告的](zookeeper是成功的，但是有警告的.md)
