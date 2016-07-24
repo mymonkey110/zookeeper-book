@@ -4,8 +4,17 @@
 * [概念和基础](概念和基础.md)
     * [简介](简介.md)
         * [Zookeeper的使命](zookeeper的使命.md)
-        * [如果没有Zookeeper世界会怎样](如果没有zookeeper世界会怎样.md)
-        * 哪些Zookeeper是不做的
+            * [没有Zookeeper世界会怎样](没有zookeeper世界会怎样.md)
+            * [哪些事情Zookeeper不做](哪些事情zookeeper不做.md)
+            * [Apache项目](apache项目.md)
+            * 利用Zookeeper构建分布式系统
+        * 示例：Master-Worker应用
+            * Master失败
+            * Worker失败
+            * 通信失败
+            * 任务总结
+        * 为什么分布式协作如此困难
+        * [Zookeeper是成功的，但是有警告的](zookeeper是成功的，但是有警告的.md)
     * [入门](入门.md)
 * [使用Zookeeper编程](使用zookeeper编程.md)
     * [熟悉Zookeeper的API](熟悉zookeeper的api.md)
