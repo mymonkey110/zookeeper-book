@@ -20,5 +20,7 @@ Figure 1-1. Master-worker example
 
 如果master和worker不能交换信息，那么worker可能就不能得到新的分配给它的任务。
 
+为了处理这些问题，系统必须能可靠的选举出新的master如果前面的那个发生错误，决定哪一个worker是可用的，以及决定何时一个worker相对去系统的其他部分变得陈旧。我们通过下面几段来看一下各个工作。
+
 
 
