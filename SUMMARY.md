@@ -12,8 +12,8 @@
             * [Master失败](master失败.md)
             * [Worker失败](worker失败.md)
             * [通信失败](通信失败.md)
-            * 任务总结
-        * 为什么分布式协作如此困难
+            * [任务总结](任务总结.md)
+        * [为什么分布式协作如此困难](为什么分布式协作如此困难.md)
         * [Zookeeper是成功的，但是有警告的](zookeeper是成功的，但是有警告的.md)
     * [入门](入门.md)
 * [使用Zookeeper编程](使用zookeeper编程.md)
