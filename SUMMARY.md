@@ -10,7 +10,7 @@
             * [利用Zookeeper构建分布式系统](利用zookeeper构建分布式系统.md)
         * [示例：Master-Worker应用](示例：master-worker应用.md)
             * [Master失败](master失败.md)
-            * Worker失败
+            * [Worker失败](worker失败.md)
             * 通信失败
             * 任务总结
         * 为什么分布式协作如此困难

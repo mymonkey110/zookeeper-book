@@ -1,0 +1,2 @@
+客户端提交任务给master，由master分配任务给可用的workers。
+
