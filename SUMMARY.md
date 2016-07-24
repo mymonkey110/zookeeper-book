@@ -8,7 +8,7 @@
             * [哪些事情Zookeeper不做](哪些事情zookeeper不做.md)
             * [Apache项目](apache项目.md)
             * [利用Zookeeper构建分布式系统](利用zookeeper构建分布式系统.md)
-        * 示例：Master-Worker应用
+        * [示例：Master-Worker应用](示例：master-worker应用.md)
             * Master失败
             * Worker失败
             * 通信失败
