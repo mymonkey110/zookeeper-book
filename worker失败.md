@@ -1,2 +1,2 @@
-客户端提交任务给master，由master分配任务给可用的workers。
+客户端提交任务给master，由master分配任务给可用的workers。这些worker接收被分配的任务，然后一旦这些任务被执行就会上报状态。
 
