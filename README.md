@@ -1,10 +1,8 @@
 # zookeeper:分布式进程协同
 
-Zookeeper:Distributed Process Coordination中文译本
+### Zookeeper:Distributed Process Coordination中文译本
 
 ![](/assets/cover.jpg)
-
-
 
 ### GitBook阅读地址：[https:\/\/www.gitbook.com\/book\/mymonkey110\/zookeeper-distributed-process-coordination](https://www.gitbook.com/book/mymonkey110/zookeeper-distributed-process-coordination)
 
@@ -24,8 +22,6 @@ Zookeeper:Distributed Process Coordination中文译本
 | 第八章 | 未开始 |
 | 第九章 | 未开始 |
 | 第十章 | 未开始 |
-
-
 
 ## MIT License
 
