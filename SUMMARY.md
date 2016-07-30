@@ -23,7 +23,7 @@
     * Zookeeper注意事项
     * C语言客户端
     * Curator：Zookeeper高级API库
-* 管理Zookeeper
+* [管理Zookeeper](管理zookeeper.md)
     * Zookeeper内部原理
-    * 运行Zookeeper
+    * [运行Zookeeper](运行zookeeper.md)
 
