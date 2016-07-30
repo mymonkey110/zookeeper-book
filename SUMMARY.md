@@ -16,6 +16,11 @@
         * [为什么分布式协作如此困难](为什么分布式协作如此困难.md)
         * [Zookeeper是成功的，但是有警告的](zookeeper是成功的，但是有警告的.md)
     * [入门](入门.md)
+        * Zookeeper基础
+        * Zookeeper架构
+        * 开始使用Zookeeper
+        * 实现Master-Worker的例子
+        * 小结
 * [Part2:使用Zookeeper编程](使用zookeeper编程.md)
     * [熟悉Zookeeper的API](熟悉zookeeper的api.md)
     * 处理状态变化
