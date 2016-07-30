@@ -15,7 +15,7 @@
             * [任务总结](任务总结.md)
         * [为什么分布式协作如此困难](为什么分布式协作如此困难.md)
         * [Zookeeper是成功的，但是有警告的](zookeeper是成功的，但是有警告的.md)
-    * [入门](入门.md)
+    * [初识Zookeeper](入门.md)
         * Zookeeper基础
         * Zookeeper架构
         * 开始使用Zookeeper
