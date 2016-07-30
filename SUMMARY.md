@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [概念和基础](概念和基础.md)
+* [Part1:概念和基础](概念和基础.md)
     * [简介](简介.md)
         * [Zookeeper的使命](zookeeper的使命.md)
             * [没有Zookeeper世界会怎样](没有zookeeper世界会怎样.md)
@@ -16,14 +16,14 @@
         * [为什么分布式协作如此困难](为什么分布式协作如此困难.md)
         * [Zookeeper是成功的，但是有警告的](zookeeper是成功的，但是有警告的.md)
     * [入门](入门.md)
-* [使用Zookeeper编程](使用zookeeper编程.md)
+* [Part2:使用Zookeeper编程](使用zookeeper编程.md)
     * [熟悉Zookeeper的API](熟悉zookeeper的api.md)
     * 处理状态变化
     * 处理失败
     * Zookeeper注意事项
     * C语言客户端
     * Curator：Zookeeper高级API库
-* [管理Zookeeper](管理zookeeper.md)
+* [Part3:管理Zookeeper](管理zookeeper.md)
     * Zookeeper内部原理
     * [运行Zookeeper](运行zookeeper.md)
 
