@@ -16,10 +16,23 @@
         * [为什么分布式协作如此困难](为什么分布式协作如此困难.md)
         * [Zookeeper是成功的，但是有警告的](zookeeper是成功的，但是有警告的.md)
     * [初识Zookeeper](入门.md)
-        * Zookeeper基础
+        * [Zookeeper基础](zookeeper基础.md)
+            * API总览
+            * Znode的不同模式
+            * 监视器和通知
+            * 版本
         * Zookeeper架构
+            * Zookeeper集群
+            * 会话
         * 开始使用Zookeeper
+            * 第一个Zookeeper会话
+            * 会话的生命周期和状态
+            * 实现一个原语：利用Zookeeper实现锁
         * 实现Master-Worker的例子
+            * Master的角色
+            * 工人、任务和指派关系
+            * Worker的角色
+            * 客户端的角色
         * 小结
 * [Part2:使用Zookeeper编程](使用zookeeper编程.md)
     * [熟悉Zookeeper的API](熟悉zookeeper的api.md)
