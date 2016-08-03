@@ -23,7 +23,6 @@
 | 第九章 | 未开始 |
 | 第十章 | 未开始 |
 
-
 本人第一次翻译，同时只能利用平时的空闲时间进行翻译，所以速度较慢。争取做到两周翻译一章。欢迎对本文翻译有兴趣的小伙伴贡献。
 
 ## How to contribute
@@ -33,6 +32,7 @@
 部分贡献：通过[issue](https://github.com/mymonkey110/zookeeper-book/issues)进行讨论，如果通过，我会进行修改。这种方式我无法统计贡献者的名字，建议使用下面的方式参与翻译。
 
 * 在 GitHub 上 fork 到自己的仓库，如 user\/zookeeper-book，然后 clone 到本地，并设置用户信息。
+
   ```
   $ git clone git@github.com:user/zookeeper-book.git
   $ cd zookeeper-book
@@ -42,6 +42,7 @@
   ```
 
 * 修改代码后提交，并推送到自己的仓库。
+
   ```
   $ #do some change on the content
   $ git commit -am "Fix issue #1: change helo to hello"
@@ -50,7 +51,9 @@
   ```
 
 * 在 GitHub 网站上提交 pull request。
+
 * 定期使用项目仓库内容更新自己仓库内容。
+
   ```
   $ git remote add upstream https://github.com/mymonkey110/zookeeper-book.git
   $ git fetch upstream
