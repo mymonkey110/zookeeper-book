@@ -1,0 +1,4 @@
+Znode可能包含也可能不包含数据。如果一个znode包含数据，那么数据是以字节数组的形式来存储的。具体字节的组织形式因每个应用而异，并且Zookeeper不提高直接解析字节的方法。序列化的包可以用来处理存储在znode中的数据，例如Protocol Buffers, Thrift, Avro和MessagePack，但有时以UTF-8或者ASCII编码的字符串形式就足够了。
+
+
+
