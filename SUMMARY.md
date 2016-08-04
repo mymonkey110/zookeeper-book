@@ -19,7 +19,7 @@
         * [Zookeeper基础](zookeeper基础.md)
             * [API总览](api总览.md)
             * [Znode的不同模式](znode的不同模式.md)
-            * 监视器和通知
+            * [监视器和通知](监视器和通知.md)
             * 版本
         * Zookeeper架构
             * Zookeeper集群
