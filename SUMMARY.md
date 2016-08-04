@@ -22,7 +22,7 @@
             * [监视器和通知](监视器和通知.md)
             * [版本](版本.md)
         * [Zookeeper架构](zookeeper架构.md)
-            * Zookeeper集群
+            * [Zookeeper集群](zookeeper集群.md)
             * 会话
         * 开始使用Zookeeper
             * 第一个Zookeeper会话
