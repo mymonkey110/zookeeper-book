@@ -21,7 +21,7 @@
             * [Znode的不同模式](znode的不同模式.md)
             * [监视器和通知](监视器和通知.md)
             * [版本](版本.md)
-        * Zookeeper架构
+        * [Zookeeper架构](zookeeper架构.md)
             * Zookeeper集群
             * 会话
         * 开始使用Zookeeper
