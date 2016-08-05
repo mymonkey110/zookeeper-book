@@ -23,7 +23,7 @@
             * [版本](版本.md)
         * [Zookeeper架构](zookeeper架构.md)
             * [Zookeeper仲裁](zookeeper集群.md)
-            * 会话
+            * [会话](会话.md)
         * 开始使用Zookeeper
             * 第一个Zookeeper会话
             * 会话的生命周期和状态
