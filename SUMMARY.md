@@ -25,7 +25,7 @@
             * [Zookeeper仲裁](zookeeper集群.md)
             * [会话](会话.md)
         * [开始使用Zookeeper](开始使用zookeeper.md)
-            * 第一个Zookeeper会话
+            * [第一个Zookeeper会话](第一个zookeeper会话.md)
             * 会话的生命周期和状态
             * 实现一个原语：利用Zookeeper实现锁
         * 实现Master-Worker的例子
