@@ -94,8 +94,71 @@
 
 我们来看一下输出。有很多行告诉我们不同的环境变量是如何设置的以及客户端使用的什么Jar包。在这个例子中我们忽略他们，关注在会话的建立上，多花点时间分析你屏幕上的输出信息。
 
+在输出的最后，我们看到了一些涉及到会话建立的日志。第一个是说“初始化连接”。这个消息表述了正在发生的事情，但是一个重要的附加信息是说它正在尝试连接到一台服务器，连接地址是客户端发出的localhost\/127.0.0.1:2181。这个例子中，连接串只包含了localhost，所以这就是将要建立的一个连接。接下来我们看到一条关于SASL的消息，我们先忽略这条消息。紧接着是一条关于客户端与本地Zookeeper服务器建立TCP连接的消息。最后一条日志消息确认了连接已经建立，同时告诉我们连接的ID：0x13b6fe376cd0000。最后，客户端库以一个SyncConnected事件通知应用程序。应用应该事先Watcher对象来处理改事件。我们在下一节再讲更多的事件。
 
-在输出的最后，我们看到了一些涉及到会话建立的日志。第一个是说“初始化连接”。这个消息表述了正在发生的事情，但是一个重要的附加信息是说它正在尝试连接到一台服务器，连接地址是客户端发出的localhost\/127.0.0.1:2181。
+刚刚对Zookeeper有了更多的熟悉，让我们列出根路径下面的znode节点并创建一个znode。让我们首先确认数据树此时是空的，除了\/zookeeper节点，该节点标记了Zookeeper服务维护的元数据树：
+
+`WATCHER::`
+
+`WatchedEvent state:SyncConnected type:None path:null`
+
+`[zk: localhost:2181(CONNECTED) 0] ls /`
+
+`[zookeeper]`
+
+这里发生了什么？我们执行了ls \/发现只有\/zookeeper。现在我们创建一个叫\/workers的节点并确认真的存在：
+
+`WATCHER::`
+
+`WatchedEvent state:SyncConnected type:None path:null`
+
+`[zk: localhost:2181(CONNECTED) 0]`
+
+`[zk: localhost:2181(CONNECTED) 0] ls /`
+
+`[zookeeper]`
+
+`[zk: localhost:2181(CONNECTED) 1] create /workers ""`
+
+`Created /workers`
+
+`[zk: localhost:2181(CONNECTED) 2] ls /`
+
+`[workers, zookeeper]`
+
+`[zk: localhost:2181(CONNECTED) 3]`
+
+为了完成这个联系，我们删除znode并退出：
+
+`[zk: localhost:2181(CONNECTED) 3] delete /workers`
+
+`[zk: localhost:2181(CONNECTED) 4] ls /`
+
+`[zookeeper]`
+
+`[zk: localhost:2181(CONNECTED) 5] quit`
+
+`Quitting...`
+
+`2012-12-06 12:28:18,200 [myid:] - INFO [main-EventThread:ClientCnxn$`
+
+`EventThread@509] - EventThread shut down`
+
+`2012-12-06 12:28:18,200 [myid:] - INFO [main:ZooKeeper@684] - Session:`
+
+`0x13b6fe376cd0000 closed`
+
+观察到\/workers节点已经被删除了，同时会话已经被关闭了。为了清理干净，让我们关闭Zookeeper服务器：
+
+`# bin/zkServer.sh stop`
+
+`JMX enabled by default`
+
+`Using config: ../conf/zoo.cfg`
+
+`Stopping zookeeper ... STOPPED`
+
+`#`
 
 
 
