@@ -10,6 +10,10 @@
 
 ## Progress
 
+很遗憾，因为授权的问题，不得不停止翻译的工作。本书已经有中文版的译本了，我后来才得知，所以我也不会取得中文版的翻译授权了。因为本人第一次翻译，事先没有搞清这些事情，才导致了现在的情况。不得不说，十分遗憾，感谢关注本书翻译的伙伴。我相信已有的中文译本应该还不错，如果需要的伙伴可以去购买。So, that's it, it's over, thanks for your attention.
+
+
+
 | 章节 | 完成情况 |
 | --- | --- |
 | 第一章 | 100% |
@@ -23,44 +27,6 @@
 | 第九章 | 未开始 |
 | 第十章 | 未开始 |
 
-本人第一次翻译，同时只能利用平时的空闲时间进行翻译，所以速度较慢。争取做到两周翻译一章。欢迎对本文翻译有兴趣的小伙伴贡献。
-
-## How to contribute
-
-参与讨论：邮件列表：&lt;zk\_translator@groups.163.com&gt;，申请加入地址：[http:\/\/163.fm\/UJNWGHS](http://163.fm/UJNWGHS)
-
-部分贡献：通过[issue](https://github.com/mymonkey110/zookeeper-book/issues)进行讨论，如果通过，我会进行修改。这种方式我无法统计贡献者的名字，建议使用下面的方式参与翻译。
-
-* 在 GitHub 上 fork 到自己的仓库，如 user\/zookeeper-book，然后 clone 到本地，并设置用户信息。
-
-  ```
-  $ git clone git@github.com:user/zookeeper-book.git
-  $ cd zookeeper-book
-  $ git config user.name "yourname"
-  $ git config user.email "your email"
-
-  ```
-
-* 修改代码后提交，并推送到自己的仓库。
-
-  ```
-  $ #do some change on the content
-  $ git commit -am "Fix issue #1: change helo to hello"
-  $ git push
-
-  ```
-
-* 在 GitHub 网站上提交 pull request。
-
-* 定期使用项目仓库内容更新自己仓库内容。
-
-  ```
-  $ git remote add upstream https://github.com/mymonkey110/zookeeper-book.git
-  $ git fetch upstream
-  $ git checkout master
-  $ git rebase upstream/master
-  $ git push -f origin master
-  ```
 
 
 ## MIT License
