@@ -31,7 +31,7 @@
             * [实现一个原语：利用Zookeeper实现锁](实现一个原语：利用zookeeper实现锁.md)
         * [实现Master-Worker的例子](实现master-worker的例子.md)
             * [Master的角色](master的角色.md)
-            * 工人、任务和指派关系
+            * [工人、任务和指派关系](工人、任务和指派关系.md)
             * Worker的角色
             * 客户端的角色
         * 小结
