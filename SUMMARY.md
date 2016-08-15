@@ -34,7 +34,7 @@
             * [工人、任务和指派关系](工人、任务和指派关系.md)
             * [Worker的角色](worker的角色.md)
             * [客户端的角色](客户端的角色.md)
-        * 小结
+        * [小结](小结.md)
 * [Part2:使用Zookeeper编程](使用zookeeper编程.md)
     * [熟悉Zookeeper的API](熟悉zookeeper的api.md)
     * 处理状态变化
