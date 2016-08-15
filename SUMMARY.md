@@ -29,7 +29,7 @@
             * [会话的生命周期和状态](会话的生命周期和状态.md)
             * [有仲裁者的Zookeeper](仲裁模式的zookeeper.md)
             * [实现一个原语：利用Zookeeper实现锁](实现一个原语：利用zookeeper实现锁.md)
-        * 实现Master-Worker的例子
+        * [实现Master-Worker的例子](实现master-worker的例子.md)
             * Master的角色
             * 工人、任务和指派关系
             * Worker的角色
